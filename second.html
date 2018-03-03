@@ -1,0 +1,36 @@
+<html>
+<body>
+<center><img src="wipro.png" alt="Xena Events" style="width:150px;height:150px;"><h1>Xena Events</h1></center>
+<marquee direction="right">Xena Events is conducting a hot balloon riding event from Feb 28th 2017 onwards for 5 days</marquee>
+<form action="b.html" method="get">
+<table border="1">
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" pattern="[A-Za-z]+" title="only alphabets" required></td>
+</tr>
+<tr>
+<td>Age</td>
+<td><input type="number" name="age" pattern="[0-9]+" min=18 max=100 required></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="email" name="email" required></td>
+</tr>
+<tr>
+<td>City Name</td>
+<td><input list="city" name="city">
+<datalist id="city">
+  <option value="Vizag">
+  <option value="Rajkot">
+  <option value="Bangalore">
+</datalist></td>
+</tr>
+<tr>
+<td>
+<button type="submit" value="submit" name="submit">submit</button>
+</td>
+</tr>
+</table>
+</form>
+ </body>
+</html>

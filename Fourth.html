@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer",
+    {
+
+      title:{
+      text: "Agricultural Statistical Department of GOI"
+      },
+       data: [
+      {
+        type: "line",
+
+        dataPoints: [
+        { x: 2001, y: 281 },
+        { x: 2002, y: 277 },
+        { x: 2003, y: 275},
+        { x: 2004, y: 457 },
+        { x: 2005, y: 200},
+        { x: 2006, y: 280 },
+        { x: 2007, y: 150 }
+       
+        ]
+      }
+      ]
+    });
+
+    chart.render();
+  }
+  </script>
+ <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script></head>
+<body>
+  <div id="chartContainer" style="height: 300px; width: 100%;">
+  </div>
+</body>
+</html>
